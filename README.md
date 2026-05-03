@@ -25,7 +25,7 @@ The expected payoff is calculated as $\max(S_T - K, 0)$ and discounted to presen
 
 ## Results: Law of Large Numbers
 
-*(Insert your `convergence_plot.png` here using `![Convergence Proof](images/convergence_plot.png)`)*
+![Convergence Proof](convergence_plot.png)
 
 The numerical simulation demonstrates high initial variance at low sample sizes ($M < 1,000$). As the number of paths increases ($M \to \infty$), the standard error collapses, and the Monte Carlo price converges perfectly onto the Black-Scholes analytical ground truth.
 
